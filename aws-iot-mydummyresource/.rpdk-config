@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::Iot::MyDummyResource",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.iot.mydummyresource.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.iot.mydummyresource.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "iot",
+            "mydummyresource"
+        ],
+        "codegen_template_path": "default"
+    }
+}
